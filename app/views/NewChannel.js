@@ -23,6 +23,7 @@ class NewChannel extends Component {
   handleSubmit = (evt) => {
     evt.preventDefault()
     this.props.newChannel(this.props.newChannelEntry)
+    this.props.navigation.goBack()
   }
   render() {
 

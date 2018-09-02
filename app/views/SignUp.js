@@ -10,7 +10,7 @@ const mapStateToProps = (state) => {
   console.log('STATE', state);
 
   return {
-    getUser: state.userReducer.authorizing
+    authorizing: state.userReducer.authorizing
   }
 };
 
